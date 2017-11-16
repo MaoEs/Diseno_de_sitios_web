@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	border-radius: 5px;
+	background-color: #CCC;
+	height: 600px;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#primero{
+	border-radius: 5px;
+	background-color: #cc0;
+	box-shadow: 0 0 10px rgba(0,0,0,3);
+	padding: 40px;
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 200px;
+	float: left;
+}
+
+#segundo{
+	border-radius: 5px;
+	background-color: #cc0;
+	box-shadow: 0 0 10px rgba(0,0,0,3);
+	padding: 40px;
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 200px;
+	float: left;
+}
+
+img{
+	text-align: left;
+	float: left;
+}
