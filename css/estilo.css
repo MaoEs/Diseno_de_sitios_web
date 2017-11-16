@@ -1,4 +1,8 @@
 body{
+	background: #212121;
+	color: $FFFFFF;
+	font-family: "fira_sansbold", Helvetica, Verdana;
+	font-size: 1em;
 	margin: 0;
 	padding: 0;
 }
@@ -35,4 +39,23 @@ body{
 img{
 	text-align: left;
 	float: left;
+}
+@font-face {
+    font-family: 'fira_sansbold';
+    src: url('../fonts/firasans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1{
+	color: #F60;
+	margin: 0, 25em auto;
+	text-align: center;
+	text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
+}
+header, nav, footer{
+	background: #1E6381;
+	border-radius: 5px;
+
 }
