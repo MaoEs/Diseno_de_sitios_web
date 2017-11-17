@@ -25,17 +25,31 @@ body{
 header{
 	background: #FFFFFF;
 	height: 100%;
+	border-radius: 5px;
+}
+
+header h1{
+	float: right;
+	text-align: auto;
+	padding: 40px 130px;
+	font-size: 40px;
+}
+
+header img{
+	padding: 10px;
 }
 
 nav{
-	background: #1E6381;
-	height: 190px; 
+	background: #005883;
+	height: 50px; 
+	border-radius: 5PX;
 }
 
 nav li{
 	list-style: no;
 	display: inline-block;
-	padding: 20px 0px;
+	padding: 20px 14px;
+	margin: auto;
 }
 
 nav a{
@@ -43,24 +57,35 @@ nav a{
 	font-size: 18px;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 20px;
+	padding: 15px;
+	margin: auto;
 }
 
 nav a:hover{
-	background: #CCCCCC;
-	color: #000000;
+	background: #B3B3B3;
+	color: #F47920;
+	border-radius: 20px;
 }
 
 #slider{
 	margin: auto;
-	border: 5px solid #000000;
+	border: 5px solid #F0B429;
+	border-radius: 5px;
 	margin-top: 5px;
+}
+
+#redes3{
+	width: 950px;
+}
+
+#redes4{
+	width: 50%;
 }
 
 #contenido{
 	float: left;
 	width: 700px;
-	background: #b3b3b3b3;
+	background: #FFFFFF;
 	border-radius: 10px;
 	overflow: hidden;
 	margin-top: 10px;
@@ -90,9 +115,37 @@ nav a:hover{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	font-family: verdana;
+	color: #000000;
 }
-img{
-	text-align: left;
+
+.articulos li{
+	color: #000000;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+aside{
+	float: right;
+	width: 250px;
+	background: #FFFFFF;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+aside h3{
+	font-size: 20px;
+	color: #000000;
+	background: #00fffF;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px;
+}
+
+aside p{
+	padding: 10px;
+	font-size: 14px;
+	color: #1E6381;
 }
 @font-face {
     font-family: 'fira_sansbold';
@@ -103,19 +156,21 @@ img{
 
 }
 h1{
-	color: #F60;
+	color: #F47920;
 	margin: 0, 25em auto;
 	text-align: center;
 	text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
 }
-footer{
-	background: #1E6381;
-	border-radius: 5px;
 
-}
 footer{
-	position: absolute;
-	height: 50%;
-	left: 0px;
-	right: 0px;
+	background: #005883;
+	border-radius: 5px;
+	clear:both;
+}
+
+footer p{
+	font-family: arial;
+	font-size: 15px;
+	text-align: center;
+	line-height: 30px;
 }
