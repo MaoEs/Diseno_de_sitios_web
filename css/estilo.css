@@ -135,8 +135,8 @@ aside{
 
 aside h3{
 	font-size: 20px;
-	color: #000000;
-	background: #00fffF;
+	color: #F47920;;
+	background: #005883;
 	border-radius: 4px;
 	text-align: center;
 	padding: 10px;
@@ -159,7 +159,7 @@ h1{
 	color: #F47920;
 	margin: 0, 25em auto;
 	text-align: center;
-	text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
+	text-shadow: 5px 5px 10px rgba(255,255,0.5,0.5);
 }
 
 footer{
