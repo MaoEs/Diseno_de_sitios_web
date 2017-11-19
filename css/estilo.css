@@ -155,7 +155,8 @@ aside h3{
 
 aside p{
 	padding: 10px;
-	font-size: 14px;
+	font-size: 16px;
+	font-family: verdana;
 	color: #1E6381;
 }
 @font-face {
